@@ -1,0 +1,15 @@
+{
+  "DATASETS": 
+  [
+   {  "DSNAME": "Num_pages",
+      "TABLEPATH": "/root",
+      "VARIABLES": [
+        {
+          "NAME": "pages",
+          "TYPE": "NUMERIC",
+          "PATH": "/root/pages"
+        }
+      ]
+	}
+   ]
+}

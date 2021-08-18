@@ -1,0 +1,704 @@
+{
+  "DATASETS": [
+    {
+      "DSNAME": "root",
+      "TABLEPATH": "/root",
+      "VARIABLES": [
+        {
+          "NAME": "ordinal_root",
+          "TYPE": "ORDINAL",
+          "PATH": "/root"
+        },
+        {
+          "NAME": "id",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/id",
+          "CURRENT_LENGTH": 8
+        },
+        {
+          "NAME": "premium",
+          "TYPE": "NUMERIC",
+          "PATH": "/root/premium"
+        },
+        {
+          "NAME": "name",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/name",
+          "CURRENT_LENGTH": 37
+        },
+        {
+          "NAME": "insider_interview",
+          "TYPE": "NUMERIC",
+          "PATH": "/root/insider_interview"
+        },
+        {
+          "NAME": "response_letter_required",
+          "TYPE": "NUMERIC",
+          "PATH": "/root/response_letter_required"
+        },
+        {
+          "NAME": "allow_messages",
+          "TYPE": "NUMERIC",
+          "PATH": "/root/allow_messages"
+        },
+        {
+          "NAME": "department",
+          "TYPE": "NUMERIC",
+          "PATH": "/root/department"
+        },
+        {
+          "NAME": "contacts",
+          "TYPE": "NUMERIC",
+          "PATH": "/root/contacts"
+        },
+        {
+          "NAME": "description",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/description",
+          "CURRENT_LENGTH": 4058
+        },
+        {
+          "NAME": "branded_description",
+          "TYPE": "NUMERIC",
+          "PATH": "/root/branded_description"
+        },
+        {
+          "NAME": "vacancy_constructor_template",
+          "TYPE": "NUMERIC",
+          "PATH": "/root/vacancy_constructor_template"
+        },
+        {
+          "NAME": "accept_handicapped",
+          "TYPE": "NUMERIC",
+          "PATH": "/root/accept_handicapped"
+        },
+        {
+          "NAME": "accept_kids",
+          "TYPE": "NUMERIC",
+          "PATH": "/root/accept_kids"
+        },
+        {
+          "NAME": "archived",
+          "TYPE": "NUMERIC",
+          "PATH": "/root/archived"
+        },
+        {
+          "NAME": "response_url",
+          "TYPE": "NUMERIC",
+          "PATH": "/root/response_url"
+        },
+        {
+          "NAME": "code",
+          "TYPE": "NUMERIC",
+          "PATH": "/root/code"
+        },
+        {
+          "NAME": "hidden",
+          "TYPE": "NUMERIC",
+          "PATH": "/root/hidden"
+        },
+        {
+          "NAME": "quick_responses_allowed",
+          "TYPE": "NUMERIC",
+          "PATH": "/root/quick_responses_allowed"
+        },
+        {
+          "NAME": "accept_incomplete_resumes",
+          "TYPE": "NUMERIC",
+          "PATH": "/root/accept_incomplete_resumes"
+        },
+        {
+          "NAME": "published_at",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/published_at",
+          "CURRENT_LENGTH": 24
+        },
+        {
+          "NAME": "created_at",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/created_at",
+          "CURRENT_LENGTH": 24
+        },
+        {
+          "NAME": "negotiations_url",
+          "TYPE": "NUMERIC",
+          "PATH": "/root/negotiations_url"
+        },
+        {
+          "NAME": "suitable_resumes_url",
+          "TYPE": "NUMERIC",
+          "PATH": "/root/suitable_resumes_url"
+        },
+        {
+          "NAME": "apply_alternate_url",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/apply_alternate_url",
+          "CURRENT_LENGTH": 59
+        },
+        {
+          "NAME": "has_test",
+          "TYPE": "NUMERIC",
+          "PATH": "/root/has_test"
+        },
+        {
+          "NAME": "test",
+          "TYPE": "NUMERIC",
+          "PATH": "/root/test"
+        },
+        {
+          "NAME": "alternate_url",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/alternate_url",
+          "CURRENT_LENGTH": 30
+        },
+        {
+          "NAME": "accept_temporary",
+          "TYPE": "NUMERIC",
+          "PATH": "/root/accept_temporary"
+        }
+      ]
+    },
+    {
+      "DSNAME": "billing_type",
+      "TABLEPATH": "/root/billing_type",
+      "VARIABLES": [
+        {
+          "NAME": "ordinal_root",
+          "TYPE": "ORDINAL",
+          "PATH": "/root"
+        },
+        {
+          "NAME": "ordinal_billing_type",
+          "TYPE": "ORDINAL",
+          "PATH": "/root/billing_type"
+        },
+        {
+          "NAME": "id",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/billing_type/id",
+          "CURRENT_LENGTH": 13
+        },
+        {
+          "NAME": "name",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/billing_type/name",
+          "CURRENT_LENGTH": 25
+        }
+      ]
+    },
+    {
+      "DSNAME": "relations",
+      "TABLEPATH": "/root",
+      "VARIABLES": [
+        {
+          "NAME": "ordinal_root",
+          "TYPE": "ORDINAL",
+          "PATH": "/root"
+        },
+        {
+          "NAME": "ordinal_relations",
+          "TYPE": "ORDINAL",
+          "PATH": "/root/relations"
+        }
+      ]
+    },
+    {
+      "DSNAME": "area",
+      "TABLEPATH": "/root/area",
+      "VARIABLES": [
+        {
+          "NAME": "ordinal_root",
+          "TYPE": "ORDINAL",
+          "PATH": "/root"
+        },
+        {
+          "NAME": "ordinal_area",
+          "TYPE": "ORDINAL",
+          "PATH": "/root/area"
+        },
+        {
+          "NAME": "id",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/area/id",
+          "CURRENT_LENGTH": 1
+        },
+        {
+          "NAME": "name",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/area/name",
+          "CURRENT_LENGTH": 12
+        },
+        {
+          "NAME": "url",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/area/url",
+          "CURRENT_LENGTH": 36
+        }
+      ]
+    },
+    {
+      "DSNAME": "salary",
+      "TABLEPATH": "/root/salary",
+      "VARIABLES": [
+        {
+          "NAME": "ordinal_root",
+          "TYPE": "ORDINAL",
+          "PATH": "/root"
+        },
+        {
+          "NAME": "ordinal_salary",
+          "TYPE": "ORDINAL",
+          "PATH": "/root/salary"
+        },
+        {
+          "NAME": "from",
+          "TYPE": "NUMERIC",
+          "PATH": "/root/salary/from"
+        },
+        {
+          "NAME": "to",
+          "TYPE": "NUMERIC",
+          "PATH": "/root/salary/to"
+        },
+        {
+          "NAME": "currency",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/salary/currency",
+          "CURRENT_LENGTH": 3
+        },
+        {
+          "NAME": "gross",
+          "TYPE": "NUMERIC",
+          "PATH": "/root/salary/gross"
+        }
+      ]
+    },
+    {
+      "DSNAME": "type",
+      "TABLEPATH": "/root/type",
+      "VARIABLES": [
+        {
+          "NAME": "ordinal_root",
+          "TYPE": "ORDINAL",
+          "PATH": "/root"
+        },
+        {
+          "NAME": "ordinal_type",
+          "TYPE": "ORDINAL",
+          "PATH": "/root/type"
+        },
+        {
+          "NAME": "id",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/type/id",
+          "CURRENT_LENGTH": 4
+        },
+        {
+          "NAME": "name",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/type/name",
+          "CURRENT_LENGTH": 16
+        }
+      ]
+    },
+    {
+      "DSNAME": "address",
+      "TABLEPATH": "/root/address",
+      "VARIABLES": [
+        {
+          "NAME": "ordinal_root",
+          "TYPE": "ORDINAL",
+          "PATH": "/root"
+        },
+        {
+          "NAME": "ordinal_address",
+          "TYPE": "ORDINAL",
+          "PATH": "/root/address"
+        },
+        {
+          "NAME": "city",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/address/city",
+          "CURRENT_LENGTH": 12
+        },
+        {
+          "NAME": "street",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/address/street",
+          "CURRENT_LENGTH": 42
+        },
+        {
+          "NAME": "building",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/address/building",
+          "CURRENT_LENGTH": 5
+        },
+        {
+          "NAME": "description",
+          "TYPE": "NUMERIC",
+          "PATH": "/root/address/description"
+        },
+        {
+          "NAME": "lat",
+          "TYPE": "NUMERIC",
+          "PATH": "/root/address/lat"
+        },
+        {
+          "NAME": "lng",
+          "TYPE": "NUMERIC",
+          "PATH": "/root/address/lng"
+        },
+        {
+          "NAME": "raw",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/address/raw",
+          "CURRENT_LENGTH": 63
+        },
+        {
+          "NAME": "metro",
+          "TYPE": "NUMERIC",
+          "PATH": "/root/address/metro"
+        }
+      ]
+    },
+    {
+      "DSNAME": "address_metro_stations",
+      "TABLEPATH": "/root/address",
+      "VARIABLES": [
+        {
+          "NAME": "ordinal_address",
+          "TYPE": "ORDINAL",
+          "PATH": "/root/address"
+        },
+        {
+          "NAME": "ordinal_metro_stations",
+          "TYPE": "ORDINAL",
+          "PATH": "/root/address/metro_stations"
+        }
+      ]
+    },
+    {
+      "DSNAME": "site",
+      "TABLEPATH": "/root/site",
+      "VARIABLES": [
+        {
+          "NAME": "ordinal_root",
+          "TYPE": "ORDINAL",
+          "PATH": "/root"
+        },
+        {
+          "NAME": "ordinal_site",
+          "TYPE": "ORDINAL",
+          "PATH": "/root/site"
+        },
+        {
+          "NAME": "id",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/site/id",
+          "CURRENT_LENGTH": 2
+        },
+        {
+          "NAME": "name",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/site/name",
+          "CURRENT_LENGTH": 5
+        }
+      ]
+    },
+    {
+      "DSNAME": "experience",
+      "TABLEPATH": "/root/experience",
+      "VARIABLES": [
+        {
+          "NAME": "ordinal_root",
+          "TYPE": "ORDINAL",
+          "PATH": "/root"
+        },
+        {
+          "NAME": "ordinal_experience",
+          "TYPE": "ORDINAL",
+          "PATH": "/root/experience"
+        },
+        {
+          "NAME": "id",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/experience/id",
+          "CURRENT_LENGTH": 12
+        },
+        {
+          "NAME": "name",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/experience/name",
+          "CURRENT_LENGTH": 17
+        }
+      ]
+    },
+    {
+      "DSNAME": "schedule",
+      "TABLEPATH": "/root/schedule",
+      "VARIABLES": [
+        {
+          "NAME": "ordinal_root",
+          "TYPE": "ORDINAL",
+          "PATH": "/root"
+        },
+        {
+          "NAME": "ordinal_schedule",
+          "TYPE": "ORDINAL",
+          "PATH": "/root/schedule"
+        },
+        {
+          "NAME": "id",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/schedule/id",
+          "CURRENT_LENGTH": 7
+        },
+        {
+          "NAME": "name",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/schedule/name",
+          "CURRENT_LENGTH": 21
+        }
+      ]
+    },
+    {
+      "DSNAME": "employment",
+      "TABLEPATH": "/root/employment",
+      "VARIABLES": [
+        {
+          "NAME": "ordinal_root",
+          "TYPE": "ORDINAL",
+          "PATH": "/root"
+        },
+        {
+          "NAME": "ordinal_employment",
+          "TYPE": "ORDINAL",
+          "PATH": "/root/employment"
+        },
+        {
+          "NAME": "id",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/employment/id",
+          "CURRENT_LENGTH": 4
+        },
+        {
+          "NAME": "name",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/employment/name",
+          "CURRENT_LENGTH": 31
+        }
+      ]
+    },
+    {
+      "DSNAME": "key_skills",
+      "TABLEPATH": "/root/key_skills",
+      "VARIABLES": [
+        {
+          "NAME": "ordinal_root",
+          "TYPE": "ORDINAL",
+          "PATH": "/root"
+        },
+        {
+          "NAME": "ordinal_key_skills",
+          "TYPE": "ORDINAL",
+          "PATH": "/root/key_skills"
+        },
+        {
+          "NAME": "name",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/key_skills/name",
+          "CURRENT_LENGTH": 74
+        }
+      ]
+    },
+    {
+      "DSNAME": "specializations",
+      "TABLEPATH": "/root/specializations",
+      "VARIABLES": [
+        {
+          "NAME": "ordinal_root",
+          "TYPE": "ORDINAL",
+          "PATH": "/root"
+        },
+        {
+          "NAME": "ordinal_specializations",
+          "TYPE": "ORDINAL",
+          "PATH": "/root/specializations"
+        },
+        {
+          "NAME": "id",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/specializations/id",
+          "CURRENT_LENGTH": 6
+        },
+        {
+          "NAME": "name",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/specializations/name",
+          "CURRENT_LENGTH": 61
+        },
+        {
+          "NAME": "profarea_id",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/specializations/profarea_id",
+          "CURRENT_LENGTH": 2
+        },
+        {
+          "NAME": "profarea_name",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/specializations/profarea_name",
+          "CURRENT_LENGTH": 61
+        }
+      ]
+    },
+    {
+      "DSNAME": "driver_license_types",
+      "TABLEPATH": "/root",
+      "VARIABLES": [
+        {
+          "NAME": "ordinal_root",
+          "TYPE": "ORDINAL",
+          "PATH": "/root"
+        },
+        {
+          "NAME": "ordinal_driver_license_types",
+          "TYPE": "ORDINAL",
+          "PATH": "/root/driver_license_types"
+        }
+      ]
+    },
+    {
+      "DSNAME": "employer",
+      "TABLEPATH": "/root/employer",
+      "VARIABLES": [
+        {
+          "NAME": "ordinal_root",
+          "TYPE": "ORDINAL",
+          "PATH": "/root"
+        },
+        {
+          "NAME": "ordinal_employer",
+          "TYPE": "ORDINAL",
+          "PATH": "/root/employer"
+        },
+        {
+          "NAME": "id",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/employer/id",
+          "CURRENT_LENGTH": 7
+        },
+        {
+          "NAME": "name",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/employer/name",
+          "CURRENT_LENGTH": 33
+        },
+        {
+          "NAME": "url",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/employer/url",
+          "CURRENT_LENGTH": 46
+        },
+        {
+          "NAME": "alternate_url",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/employer/alternate_url",
+          "CURRENT_LENGTH": 30
+        },
+        {
+          "NAME": "vacancies_url",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/employer/vacancies_url",
+          "CURRENT_LENGTH": 58
+        },
+        {
+          "NAME": "trusted",
+          "TYPE": "NUMERIC",
+          "PATH": "/root/employer/trusted"
+        }
+      ]
+    },
+    {
+      "DSNAME": "employer_logo_urls",
+      "TABLEPATH": "/root/employer/logo_urls",
+      "VARIABLES": [
+        {
+          "NAME": "ordinal_employer",
+          "TYPE": "ORDINAL",
+          "PATH": "/root/employer"
+        },
+        {
+          "NAME": "ordinal_logo_urls",
+          "TYPE": "ORDINAL",
+          "PATH": "/root/employer/logo_urls"
+        },
+        {
+          "NAME": "_40",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/employer/logo_urls/240",
+          "CURRENT_LENGTH": 42
+        },
+        {
+          "NAME": "_0",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/employer/logo_urls/90",
+          "CURRENT_LENGTH": 42
+        },
+        {
+          "NAME": "original",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/employer/logo_urls/original",
+          "CURRENT_LENGTH": 50
+        }
+      ]
+    },
+    {
+      "DSNAME": "working_days",
+      "TABLEPATH": "/root",
+      "VARIABLES": [
+        {
+          "NAME": "ordinal_root",
+          "TYPE": "ORDINAL",
+          "PATH": "/root"
+        },
+        {
+          "NAME": "ordinal_working_days",
+          "TYPE": "ORDINAL",
+          "PATH": "/root/working_days"
+        }
+      ]
+    },
+    {
+      "DSNAME": "working_time_intervals",
+      "TABLEPATH": "/root",
+      "VARIABLES": [
+        {
+          "NAME": "ordinal_root",
+          "TYPE": "ORDINAL",
+          "PATH": "/root"
+        },
+        {
+          "NAME": "ordinal_working_time_intervals",
+          "TYPE": "ORDINAL",
+          "PATH": "/root/working_time_intervals"
+        }
+      ]
+    },
+    {
+      "DSNAME": "working_time_modes",
+      "TABLEPATH": "/root",
+      "VARIABLES": [
+        {
+          "NAME": "ordinal_root",
+          "TYPE": "ORDINAL",
+          "PATH": "/root"
+        },
+        {
+          "NAME": "ordinal_working_time_modes",
+          "TYPE": "ORDINAL",
+          "PATH": "/root/working_time_modes"
+        }
+      ]
+    }
+  ]
+}

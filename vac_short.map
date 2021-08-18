@@ -1,0 +1,31 @@
+{
+  "DATASETS": 
+  [
+   {  "DSNAME": "vac_info",
+      "TABLEPATH": "/root",
+      "VARIABLES": [
+         {
+          "NAME": "vac_id",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/id"
+        },
+		{
+          "NAME": "experience",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/experience/name"
+        }
+      ]
+	},
+	  {
+      "DSNAME": "key_skills",
+      "TABLEPATH": "/root/key_skills",
+      "VARIABLES": [
+        {
+          "NAME": "name",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/key_skills/name"
+        }
+      ]
+    }
+   ]
+}

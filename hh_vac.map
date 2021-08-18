@@ -1,0 +1,62 @@
+{
+  "DATASETS": 
+  [
+   {  "DSNAME": "Vacancy",
+      "TABLEPATH": "/root/items",
+      "VARIABLES": [
+	   {
+          "NAME": "vac_id",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/items/id",
+          "CURRENT_LENGTH": 8
+        },
+        {
+          "NAME": "vac_name",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/items/name",
+          "CURRENT_LENGTH": 97
+        },
+        {
+          "NAME": "vac_url",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/items/url",
+          "CURRENT_LENGTH": 47
+        },
+        {
+          "NAME": "schedule_name",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/items/schedule/name",
+          "CURRENT_LENGTH": 27
+        },
+		{
+          "NAME": "area_name",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/items/area/name",
+          "CURRENT_LENGTH": 54
+        },
+        {
+          "NAME": "employer_name",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/items/employer/name",
+          "CURRENT_LENGTH": 87
+        },
+		{
+          "NAME": "salary_from",
+          "TYPE": "NUMERIC",
+          "PATH": "/root/items/salary/from"
+        },
+        {
+          "NAME": "salary_to",
+          "TYPE": "NUMERIC",
+          "PATH": "/root/items/salary/to"
+        },
+        {
+          "NAME": "salary_currency",
+          "TYPE": "CHARACTER",
+          "PATH": "/root/items/salary/currency",
+          "CURRENT_LENGTH": 3
+        }
+      ]
+	}
+   ]
+}
